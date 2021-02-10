@@ -1,0 +1,64 @@
+.file-list-container {
+  border-style: dashed;
+  border-color: #b7d7e6;
+  max-width: 800px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.file-item {
+  display: flex;
+  background-color: #f8fffd;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #b7d7e6;
+  padding: 5px;
+  margin: 5px;
+}
+
+.file-item:hover {
+  background-color: #b7d7e6;
+}
+
+.file-name-text {
+  float: left;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 3.5px;
+  color: #333;
+}
+
+.size-text {
+  margin-left: 4px;
+  float: left;
+  vertical-align: super;
+  font-size: 10px;
+  padding-bottom: 3.5px;
+  color: #999;
+}
+
+.command-zone {
+  margin-right: 4px;
+}
+
+.command-zone > dx-button {
+  margin-right: 5px;
+}
+
+.command-zone .dx-button-content {
+  padding: unset;
+}
+
+.status-message.error-message {
+  color: #d9534f;
+}
+.file-status-message {
+  height: auto;
+  color: #999;
+  float: left;
+  margin-bottom: 0;
+  line-height: 13px;
+  font-size: 12px;
+}
